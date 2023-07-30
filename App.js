@@ -1,13 +1,5 @@
-// In App.js in a new project
+import StackNavigator from './StackNavigator';
 
-import * as React from 'react';
-
-import Home from './Home';
-
-function App() {
-  return (
-    <Home/>
-  );
+export default function App() {
+  return <StackNavigator />;
 }
-
-export default App;

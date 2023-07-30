@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:react-native/all",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": ["react", "react-native", "prettier"],
+  "rules": {
+    // Add specific rules or overrides here, if needed
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
