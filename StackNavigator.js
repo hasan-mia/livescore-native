@@ -10,10 +10,10 @@ export default function StackNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Notifications" component={NotificationsScreen} />
-        <Stack.Screen name="Profile" component={ProfileScreen} />
-        <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="Notifications" component={NotificationsScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="Profile" component={ProfileScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="Settings" component={SettingsScreen} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
