@@ -1,5 +1,10 @@
-import StackNavigator from './StackNavigator';
+import { PaperProvider } from "react-native-paper";
+import StackNavigator from "./routes/StackNavigator";
 
 export default function App() {
-  return <StackNavigator />;
+  return (
+    <PaperProvider>
+      <StackNavigator />
+    </PaperProvider>
+  );
 }
